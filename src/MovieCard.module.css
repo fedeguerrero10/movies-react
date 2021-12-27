@@ -1,0 +1,20 @@
+.movieCard {
+  list-style: none;
+  font-family: serif;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: rgb(243, 169, 141);
+  border-radius: 20px;
+}
+
+.movieImage {
+  border-radius: 20px;
+  background-color: azure;
+}
+
+@media (max-width: 560px) {
+  .movieImage {
+    width: 90%;
+    height: auto;
+  }
+}
